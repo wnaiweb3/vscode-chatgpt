@@ -12,7 +12,7 @@
  */
 
 import * as vscode from "vscode";
-import ChatGptViewProvider from './chatgpt-view-provider';
+import ChatGptViewProvider from './chatgpt-view-provider-zh';
 
 const menuCommands = ["addTests", "findProblems", "optimize", "explain", "addComments", "completeCode", "generateCode", "customPrompt1", "customPrompt2", "adhoc"];
 

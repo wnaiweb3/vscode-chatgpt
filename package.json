@@ -4,7 +4,7 @@
   "displayName": "ChatGPT汉化版",
   "icon": "images/ai-logo.png",
   "description": "ChatGPT 体验, 汉化的vscode插件, 方便大家使用",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "aiKey": "",
   "repository": {
     "url": "https://github.com/wnaiweb3/vscode-chatgpt"
