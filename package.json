@@ -1,13 +1,13 @@
 {
-  "name": "vscode-chatgpt",
-  "publisher": "YOUR_PUBLISHER_NAME",
-  "displayName": "vscode-chatgpt",
+  "name": "chatgpt-zh",
+  "publisher": "gentlythink",
+  "displayName": "ChatGPT汉化版",
   "icon": "images/ai-logo.png",
-  "description": "vscode-chatgpt",
-  "version": "3.9.7-0",
+  "description": "ChatGPT 体验, 汉化的vscode插件, 方便大家使用",
+  "version": "0.0.6",
   "aiKey": "",
   "repository": {
-    "url": "https://github.com/YOUR_PUBLISHER_NAME/vscode-chatgpt"
+    "url": "https://github.com/wnaiweb3/vscode-chatgpt"
   },
   "engines": {
     "vscode": "^1.73.0"
