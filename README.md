@@ -61,3 +61,7 @@ This project is released under ISC License - See root License for details. Copyr
   - `npm install --global vsce`
 - Run `vsce package`
 - Follow the <a href="https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix">instructions</a> and install manually.
+
+## PS
+
+https://code.visualstudio.com/api/working-with-extensions/publishing-extension#publishing-extensions
