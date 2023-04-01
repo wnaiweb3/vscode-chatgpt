@@ -4,7 +4,7 @@
   "displayName": "ChatGPT汉化版",
   "icon": "images/ai-logo.png",
   "description": "ChatGPT 体验, 汉化的vscode插件, 方便大家使用",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "aiKey": "",
   "repository": {
     "url": "https://github.com/wnaiweb3/vscode-chatgpt"
@@ -158,69 +158,69 @@
     "commands": [
       {
         "command": "vscode-chatgpt.freeText",
-        "title": "ChatGPT: Ask anything"
+        "title": "ChatGPT: 随便问问"
       },
       {
         "command": "vscode-chatgpt.clearSession",
-        "title": "ChatGPT: Reset session"
+        "title": "ChatGPT: 重置会话"
       },
       {
         "command": "vscode-chatgpt.generateCode",
-        "title": "ChatGPT-Codex: Generate code",
+        "title": "ChatGPT-Codex: 生成代码",
         "enablement": "editorHasSelection"
       },
       {
         "command": "vscode-chatgpt.addTests",
-        "title": "ChatGPT: Add tests",
+        "title": "ChatGPT: 添加测试",
         "enablement": "editorHasSelection"
       },
       {
         "command": "vscode-chatgpt.findProblems",
-        "title": "ChatGPT: Find bugs",
+        "title": "ChatGPT: 查找错误",
         "enablement": "editorHasSelection"
       },
       {
         "command": "vscode-chatgpt.optimize",
-        "title": "ChatGPT: Optimize",
+        "title": "ChatGPT: 优化代码",
         "enablement": "editorHasSelection"
       },
       {
         "command": "vscode-chatgpt.explain",
-        "title": "ChatGPT: Explain",
+        "title": "ChatGPT: 讲解代码",
         "enablement": "editorHasSelection"
       },
       {
         "command": "vscode-chatgpt.addComments",
-        "title": "ChatGPT: Add comments",
+        "title": "ChatGPT: 添加注释",
         "enablement": "editorHasSelection"
       },
       {
         "command": "vscode-chatgpt.completeCode",
-        "title": "ChatGPT: Complete code",
+        "title": "ChatGPT: 完善代码",
         "enablement": "editorHasSelection"
       },
       {
         "command": "vscode-chatgpt.adhoc",
-        "title": "ChatGPT: Ad-hoc prompt",
+        "title": "ChatGPT: 特别提示",
         "enablement": "editorHasSelection"
       },
       {
         "command": "vscode-chatgpt.customPrompt1",
-        "title": "ChatGPT: Custom prompt 1",
+        "title": "ChatGPT: 自定义提示 1",
         "enablement": "editorHasSelection"
       },
       {
         "command": "vscode-chatgpt.customPrompt2",
-        "title": "ChatGPT: Custom prompt 2",
+        "title": "ChatGPT: 自定义提示 2",
         "enablement": "editorHasSelection"
       },
       {
         "command": "vscode-chatgpt.clearConversation",
-        "title": "ChatGPT: Clear conversation"
+        "title": "ChatGPT: 清除对话"
       },
       {
         "command": "vscode-chatgpt.exportConversation",
-        "title": "ChatGPT: Export conversation"
+        "title": "ChatGPT: 导出对话"
       }
     ],
     "viewsContainers": {
@@ -237,7 +237,7 @@
         {
           "type": "webview",
           "id": "vscode-chatgpt.view",
-          "name": "Conversation window"
+          "name": "对话窗口"
         }
       ]
     },
